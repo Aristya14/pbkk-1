@@ -19,7 +19,7 @@ class FormController extends Controller
            'alamat' => 'required',
            'sekolah' => 'required',
            'rapot' => 'required|numeric|min:2.50|max:99.99',
-           'gambar' => 'required|image|mimes:png,jpeg,jpg|max:2048'
+           'gambar' => 'required|image|mimes:png,jpeg,jpg|max:2000'
         ]);
 
         $filename=time().".".$request->gambar->extension();

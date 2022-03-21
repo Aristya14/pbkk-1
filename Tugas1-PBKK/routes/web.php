@@ -30,6 +30,9 @@ Route::post('/proses', [FormController::class, 'proses']);
 Route::get("/article", function(){
     return view('article');
 });
+Route::get("/home", function(){
+    return view('home');
+});
 
 Route::get("/article", [ArticleController::class, 'index']);
 Route::get('/article/{article:slug}', [ArticleController::class, 'content']);
