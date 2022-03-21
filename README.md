@@ -4,4 +4,4 @@
 https://youtu.be/figV-KyGBu0
 
 ## Link YT tugas 2:
-https://youtu.be/vDPkLxyf4gk
+https://youtu.be/RdvsRkfttdY
